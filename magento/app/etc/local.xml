@@ -39,10 +39,21 @@
                 <table_prefix><![CDATA[]]></table_prefix>
             </db>
             <default_setup>
-                <connection>
+                <!--connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
                     <password><![CDATA[password]]></password>
+                    <dbname><![CDATA[magento]]></dbname>
+                    <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
+                    <model><![CDATA[mysql4]]></model>
+                    <type><![CDATA[pdo_mysql]]></type>
+                    <pdoType><![CDATA[]]></pdoType>
+                    <active>1</active>
+                </connection-->
+                <connection>
+                    <host><![CDATA[46.4.123.3]]></host>
+                    <username><![CDATA[magento]]></username>
+                    <password><![CDATA[kursusprojekt]]></password>
                     <dbname><![CDATA[magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
