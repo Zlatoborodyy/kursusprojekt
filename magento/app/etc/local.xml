@@ -39,7 +39,7 @@
                 <table_prefix><![CDATA[]]></table_prefix>
             </db>
             <default_setup>
-                <!--connection>
+                <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
                     <password><![CDATA[password]]></password>
@@ -49,8 +49,8 @@
                     <type><![CDATA[pdo_mysql]]></type>
                     <pdoType><![CDATA[]]></pdoType>
                     <active>1</active>
-                </connection-->
-                <connection>
+                </connection>
+                <!--connection>
                     <host><![CDATA[46.4.123.3]]></host>
                     <username><![CDATA[magento]]></username>
                     <password><![CDATA[kursusprojekt]]></password>
@@ -60,7 +60,7 @@
                     <type><![CDATA[pdo_mysql]]></type>
                     <pdoType><![CDATA[]]></pdoType>
                     <active>1</active>
-                </connection>
+                </connection-->
             </default_setup>
         </resources>
         <session_save><![CDATA[files]]></session_save>
